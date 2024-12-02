@@ -16,12 +16,11 @@
 
 </head>
 <body>
-    <div class="home">
-    <img src="image/homebg.png" alt="">
+<section class="home">
             <!-- header section starts -->
      <section class="header">
         <a href="home.php" class="logo">
-            <img src="image/logo.png" alt=""></span>
+            <img src="images/Logo.png" alt=""></span>
         </a>
 
         <nav class="navbar">
@@ -34,9 +33,21 @@
         <div id="menu-btn" class="fas fa-bars"></div>
 
      </section>
-     
-    </div>
 
+     
+        <div class="title">
+            <h3>SOFTWARE APPLICATION DEVELOPMENT COMPANY</h3>
+        </div>
+        <div class="title2">
+            <h2>We  create digital<br>solutions that help<br>businesses grow<br>faster</h2>
+        </div>
+        <div class="description">
+            <p>We help you build and develop websites, web apps, mobile apps,<br> custom software solutions, and more.</p>
+        </div>
+        <div class="description2">
+            <p>Trusted for years in providing reliable digital solutions.</p>
+        </div>
+     </section>
     <!-- header section ends -->
 
 
@@ -55,7 +66,48 @@
 
 
 
+<!-- footer section starts -->
 
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">   
+        <h3>quick links</h3>
+        <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+        <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+        <a href="portfolio.php"> <i class="fas fa-angle-right"></i> portfolio</a>
+        <a href="conatct.php"> <i class="fas fa-angle-right"></i> contact</a>
+    </div>
+
+    <div class="box">   
+        <h3>extra links</h3>
+        <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+    </div>
+
+    <div class="box">   
+        <h3>contact information</h3>
+        <a href="#"> <i class="fas fa-phone"></i> +xxx-xxx-xxxx</a>
+        <a href="#"> <i class="fas fa-phone"></i> +xxx-xxx-xxxx</a>
+        <a href="#"> <i class="fas fa-envelope"></i> galadevs@gmail.com</a>
+        <a href="#"> <i class="fas fa-map"></i> IloIlo City, Philippines</a>
+    </div>
+
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+        <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+    </div>
+
+</div>
+
+<div class="credit"> created by <span>GalaDevs</span> | all rights reserved!</div>
+</section>
 
 
  
