@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      
      <!-- cusrom css file link -->
-      <link rel="stylesheet" href="css/home.css">
+      <link rel="stylesheet" href="css/about.css">
 
 </head>
 <body>
             <!-- header section starts -->
-     <section class="header">
+            <section class="header" id="header">
         <a href="home.php" class="logo">
             <img src="images/Logo.png" alt=""></span>
         </a>
@@ -27,28 +27,73 @@
             <a href="about.php">about</a>
             <a href="portfolio.php">portfolio</a>
             <a href="conatct.php">contact</a>
+            <a href="contact.php"><button>Book a Call <i class="fa-solid fa-arrow-up-right-dots"></i> </button></a>
         </nav>
+
+
 
         <div id="menu-btn" class="fas fa-bars"></div>
 
      </section>
     <!-- header section ends -->
+    
 
-    <div class="heading" style="background:url(>
-        <h1>about us</h1>
+    <div class="container">
+    <div class="content">
+      <h1 class="main-heading">We love bringing your ideas, to life</h1>
+      <p class="description">
+        During the height of the global pandemic, our team was driven by a common goal: to provide affordable and high-quality software solutions to small businesses. As the situation evolved, our team expanded and grew, becoming a dependable digital partner for numerous local and international MSMEs (Micro, Small and Medium Enterprises) as well as startups.
+      </p>
+      <p class="description">
+        We take pride in being a youthful and dynamic team, fueled by our passion for developing innovative solutions. Our mission is to offer impactful and transformative solutions that propel business forward while simultaneously enhancing the lives of people through meaningful innovation. With an unwavering commitment to excellence, we strive to empower businesses and individuals alike, leveraging the potential of technology to drive growth and foster positive change.
+      </p>
+      <p class="signature">
+        <span class="name">Rhey Macayran</span><br>
+        <small>Founder and Chief Executive Officer</small>
+      </p>
     </div>
+    <div class="image-container">
+      <img src="images/Rhey.png" alt="Rhey Macayran working on a laptop">
+    </div> 
+  </div>
 
+  <div class="container">
+      <div class="content">
+        <h1 class="main-heading">We love bringing your ideas, to life</h1>
+        <p class="description">
+          During the height of the global pandemic, our team was driven by a common goal: to provide affordable and high-quality software solutions to small businesses. As the situation evolved, our team expanded and grew, becoming a dependable digital partner for numerous local and international MSMEs (Micro, Small and Medium Enterprises) as well as startups.
+        </p>
+        <p class="description">
+          We take pride in being a youthful and dynamic team, fueled by our passion for developing innovative solutions. Our mission is to offer impactful and transformative solutions that propel business forward while simultaneously enhancing the lives of people through meaningful innovation. With an unwavering commitment to excellence, we strive to empower businesses and individuals alike, leveraging the potential of technology to drive growth and foster positive change.
+        </p>
+        <p class="signature">
+          <span class="name">Rhey Macayran</span><br>
+          <small>Founder and Chief Executive Officer</small>
+        </p>
+      </div>
+    <div class="image-container reverse">
+      <img src="images/Wendy.png" alt="Rhey Macayran working on a laptop">
+    </div> 
+  </div>
 
-
-
-
-
-
-
-
-
-
-
+  <div class="container">
+    <div class="content">
+      <h1 class="main-heading">We love bringing your ideas, to life</h1>
+      <p class="description">
+        During the height of the global pandemic, our team was driven by a common goal: to provide affordable and high-quality software solutions to small businesses. As the situation evolved, our team expanded and grew, becoming a dependable digital partner for numerous local and international MSMEs (Micro, Small and Medium Enterprises) as well as startups.
+      </p>
+      <p class="description">
+        We take pride in being a youthful and dynamic team, fueled by our passion for developing innovative solutions. Our mission is to offer impactful and transformative solutions that propel business forward while simultaneously enhancing the lives of people through meaningful innovation. With an unwavering commitment to excellence, we strive to empower businesses and individuals alike, leveraging the potential of technology to drive growth and foster positive change.
+      </p>
+      <p class="signature">
+        <span class="name">Rhey Macayran</span><br>
+        <small>Founder and Chief Executive Officer</small>
+      </p>
+    </div>
+    <div class="image-container">
+      <img src="images/Rod.png" alt="Rhey Macayran working on a laptop">
+    </div> 
+  </div>
 
 
 
