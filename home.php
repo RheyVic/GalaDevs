@@ -84,17 +84,80 @@
     </div>
   </section>
 
+  
+
  
 
+  <div class="background">
+    <section class="about-us">
+      <div class="content">
+        <h2>About Us</h2>
+        <h3>Businesses and organizations have confidence in us.</h3>
+        <p>
+          To ensure project satisfaction, we consistently include our clients as
+          part of the solution development team. We deliver regular project status
+          reports to our clients in order to make early adjustments.
+        </p>
+        <button class="read-more">Read More</button>
+      </div>
+      <div class="image">
+        <img src="images/aboutus.png" alt="Project dashboard preview">
+      </div>
+    </section>
+  </div>
+  
+<section class="testimonial-main">
+  <div class="test">
+  <h1>Here's what our clients say about us</h1>
+  <p>We help grow businesses and organizations with digital solutions that actually work. <br>Hear it from the people we've actually worked with.</p>
+  </div>
+
+
+<!-- Create Review Button -->
+
+
+<!-- Create Review Form (Hidden by Default) -->
+<form id="createForm" action="create.php" method="POST" class="review-form" style="display: none;">
+    <input type="text" name="username" placeholder="Your Name" required>
+    <textarea name="comment" placeholder="Your Comment" required></textarea>
+    <label for="rating">Rating:</label>
+    <select name="rating" required>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+    </select>
+    <button class="submit" type="submit">Submit Review</button>
+    <button type="button" onclick="toggleCreateForm()">Cancel</button>
+</form>
+
+<!-- Update Review Form (Hidden by Default) -->
+<form id="updateForm" action="update.php" method="POST" class="review-form" style="display: none;">
+    <input type="hidden" name="id" id="updateId">
+    <textarea name="comment" id="updateComment" placeholder="Your Comment" required></textarea>
+    <label for="updateRating">Rating:</label>
+    <select name="rating" id="updateRating" required>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+    </select>
+    <button type="submit">Update Review</button>
+    <button type="button" onclick="closeUpdateForm()">Cancel</button>
+</form>
+
+<!-- Carousel Container -->
+<div class="carousel-container">
+    <div class="carousel" id="carousel"></div>
+</div>
+
+<button id="createButton" class="create-button" onclick="toggleCreateForm()">Create Review</button>
 
 
 
-
-
-
-
-
-
+</section>
 
 
 
