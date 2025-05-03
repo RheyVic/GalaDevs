@@ -18,16 +18,16 @@
 <body>
             <!-- header section starts -->
      <section class="header" id="header">
-        <a href="index.html" class="logo">
+        <a href="index.php" class="logo">
             <img src="images/Logo.png" alt=""></span>
         </a>
 
         <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="conatct.html">contact</a>
-            <a href="contact.html"><button>Book a Call <i class="fa-solid fa-arrow-up-right-dots"></i> </button></a>
+            <a href="index.php">home</a>
+            <a href="about.php">about</a>
+            <a href="portfolio.php">portfolio</a>
+            <a href="conatct.php">contact</a>
+            <a href="contact.php"><button>Book a Call <i class="fa-solid fa-arrow-up-right-dots"></i> </button></a>
         </nav>
 
 
@@ -106,8 +106,58 @@
     </section>
   </div>
   
+<section class="testimonial-main">
+  <div class="test">
+  <h1>Here's what our clients say about us</h1>
+  <p>We help grow businesses and organizations with digital solutions that actually work. <br>Hear it from the people we've actually worked with.</p>
+  </div>
+
 
 <!-- Create Review Button -->
+
+
+<!-- Create Review Form (Hidden by Default) -->
+<form id="createForm" action="create.php" method="POST" class="review-form" style="display: none;">
+    <input type="text" name="username" placeholder="Your Name" required>
+    <textarea name="comment" placeholder="Your Comment" required></textarea>
+    <label for="rating">Rating:</label>
+    <select name="rating" required>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+    </select>
+    <button class="submit" type="submit">Submit Review</button>
+    <button type="button" onclick="toggleCreateForm()">Cancel</button>
+</form>
+
+<!-- Update Review Form (Hidden by Default) -->
+<form id="updateForm" action="update.php" method="POST" class="review-form" style="display: none;">
+    <input type="hidden" name="id" id="updateId">
+    <textarea name="comment" id="updateComment" placeholder="Your Comment" required></textarea>
+    <label for="updateRating">Rating:</label>
+    <select name="rating" id="updateRating" required>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+    </select>
+    <button type="submit">Update Review</button>
+    <button type="button" onclick="closeUpdateForm()">Cancel</button>
+</form>
+
+<!-- Carousel Container -->
+<div class="carousel-container">
+    <div class="carousel" id="carousel"></div>
+</div>
+
+<button id="createButton" class="create-button" onclick="toggleCreateForm()">Create Review</button>
+
+
+
+</section>
 
 
 
@@ -123,10 +173,10 @@
 
     <div class="box">   
         <h3>quick links</h3>
-        <a href="index.html"> <i class="fas fa-angle-right"></i> home</a>
-        <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
-        <a href="portfolio.html"> <i class="fas fa-angle-right"></i> portfolio</a>
-        <a href="conatct.html"> <i class="fas fa-angle-right"></i> contact</a>
+        <a href="index.php"> <i class="fas fa-angle-right"></i> home</a>
+        <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+        <a href="portfolio.php"> <i class="fas fa-angle-right"></i> portfolio</a>
+        <a href="conatct.php"> <i class="fas fa-angle-right"></i> contact</a>
     </div>
 
     <div class="box">   

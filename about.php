@@ -18,16 +18,16 @@
 <body>
             <!-- header section starts -->
             <section class="header" id="header">
-        <a href="index.html" class="logo">
+        <a href="index.php" class="logo">
             <img src="images/Logo.png" alt=""></span>
         </a>
 
         <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="conatct.html">contact</a>
-            <a href="contact.html"><button>Book a Call <i class="fa-solid fa-arrow-up-right-dots"></i> </button></a>
+            <a href="index.php">home</a>
+            <a href="about.php">about</a>
+            <a href="portfolio.php">portfolio</a>
+            <a href="conatct.php">contact</a>
+            <a href="contact.php"><button>Book a Call <i class="fa-solid fa-arrow-up-right-dots"></i> </button></a>
         </nav>
 
 
@@ -67,8 +67,8 @@
           We take pride in being a youthful and dynamic team, fueled by our passion for developing innovative solutions. Our mission is to offer impactful and transformative solutions that propel business forward while simultaneously enhancing the lives of people through meaningful innovation. With an unwavering commitment to excellence, we strive to empower businesses and individuals alike, leveraging the potential of technology to drive growth and foster positive change.
         </p>
         <p class="signature">
-          <span class="name">Wendy Dagohoy</span><br>
-          <small>Founder and Chief Finance Officer</small>
+          <span class="name">Rhey Macayran</span><br>
+          <small>Founder and Chief Executive Officer</small>
         </p>
       </div>
     <div class="image-container reverse">
@@ -86,8 +86,8 @@
         We take pride in being a youthful and dynamic team, fueled by our passion for developing innovative solutions. Our mission is to offer impactful and transformative solutions that propel business forward while simultaneously enhancing the lives of people through meaningful innovation. With an unwavering commitment to excellence, we strive to empower businesses and individuals alike, leveraging the potential of technology to drive growth and foster positive change.
       </p>
       <p class="signature">
-        <span class="name">Rod Pantajo</span><br>
-        <small>Founder and Chief Operation Officer</small>
+        <span class="name">Rhey Macayran</span><br>
+        <small>Founder and Chief Executive Officer</small>
       </p>
     </div>
     <div class="image-container">
@@ -107,10 +107,10 @@
 
     <div class="box">   
         <h3>quick links</h3>
-        <a href="index.html"> <i class="fas fa-angle-right"></i> home</a>
-        <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
-        <a href="portfolio.html"> <i class="fas fa-angle-right"></i> portfolio</a>
-        <a href="conatct.html"> <i class="fas fa-angle-right"></i> contact</a>
+        <a href="index.php"> <i class="fas fa-angle-right"></i> home</a>
+        <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+        <a href="portfolio.php"> <i class="fas fa-angle-right"></i> portfolio</a>
+        <a href="conatct.php"> <i class="fas fa-angle-right"></i> contact</a>
     </div>
 
     <div class="box">   
